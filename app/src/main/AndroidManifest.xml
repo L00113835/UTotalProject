@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mary.utotal">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UTotal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.DataService"
+            android:exported="false" />
+
+        <service
+            android:name=".services.GetNameService"
+            android:exported="false" />
+        <service
+            android:name=".services.NamePriceService"
+            android:exported="false" />
+
+        <service
+            android:name=".services.MiniService"
+            android:exported="false" />
+
+        <activity android:name=".CalculateActivity" />
+        <activity
+            android:name=".MiniActivity" />
+        <activity android:name=".CompareShopActivity"
+            android:parentActivityName=".CalculateActivity"/>
+    </application>
+
+</manifest>

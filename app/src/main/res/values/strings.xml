@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UTotal</string>
+    <string name="scan">Scan</string>
+    <string name="add">Add</string>
+    <string name="Total">Total €</string>
+    <string name="compare">Compare</string>
+    <string name="search">Search</string>
+    <string name="prodResult">prodResult</string>
+    <string name="prodName">Product Name</string>
+    <string name="size">Size/Weight</string>
+    <string name="totalText">totalText</string>
+    <string name="check">OK</string>
+    <string name="price">Price €</string>
+    <string name="exit">Exit</string>
+    <string name="scanAgain">Scan another Item</string>
+    <string name="tesceo">Tesco</string>
+    <string name="dunes">Dunnes Stores</string>
+    <string name="premade">Premade</string>
+    <string name="fresh">Ingredients Cost</string>
+    <string name="mini">Fresh Cost</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Return</string>
+</resources>

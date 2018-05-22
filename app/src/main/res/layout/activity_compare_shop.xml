@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mary.utotal.CompareShopActivity">
+
+    <TextView
+        android:id="@+id/tescoPrice"
+        android:layout_width="51dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tesco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="168dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:text="@string/tesceo"
+        android:textAlignment="viewStart"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dunnes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:text="@string/dunes"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="casual"
+        tools:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/dunnesPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="128dp"
+        android:text="test "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tescoName"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="304dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text=" test"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:layout_marginStart="16dp"
+        android:onClick="backToCalAct"
+        android:text="@string/back"
+        android:fontFamily="casual"
+        android:textColor="#434343"
+        android:textSize="16sp"
+        android:background="#c96000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
